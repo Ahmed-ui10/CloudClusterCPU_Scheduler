@@ -1,0 +1,5 @@
+Process,Arrival,Burst,Priority,Finish,Turnaround,Waiting,Response
+P1,0,5,4,5,5,0,0
+P2,1,6,2,15,14,8,8
+P3,4,4,3,9,5,1,1
+AVERAGE,,,,,8,3,3

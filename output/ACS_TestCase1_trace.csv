@@ -1,0 +1,14 @@
+Time,Running,Tier1,Tier2,Notes
+0,P1,[Empty],[Empty],Tier 1 - Round Robin
+1,P1,"[P2 (remaining: 7, Priority: 3)]",[Empty],Tier 1 - Round Robin
+2,P1,"[P2 (remaining: 7, Priority: 3)]",[Empty],Tier 1 - Round Robin
+3,P2,"[P3 (remaining: 2, Priority: 1)]","[P1 (remaining: 1, Priority: 2)]",Tier 1 - Round Robin
+4,P2,"[P3 (remaining: 2, Priority: 1)]","[P1 (remaining: 1, Priority: 2)]",Tier 1 - Round Robin
+5,P2,"[P3 (remaining: 2, Priority: 1)]","[P1 (remaining: 1, Priority: 2)]",Tier 1 - Round Robin
+6,P3,[Empty],"[P1 (remaining: 1, Priority: 2), P2 (remaining: 4, Priority: 3)]",Tier 1 - Round Robin
+7,P3,[Empty],"[P1 (remaining: 1, Priority: 1), P2 (remaining: 4, Priority: 3)]",Tier 1 - Round Robin
+8,P1,[Empty],"[P2 (remaining: 4, Priority: 3)]",Tier 2 - Non-Preemptive Priority | Effective Priority: 1
+9,P2,[Empty],[Empty],Tier 2 - Non-Preemptive Priority | Effective Priority: 3
+10,P2,[Empty],[Empty],Tier 2 - Non-Preemptive Priority | Effective Priority: 3
+11,P2,[Empty],[Empty],Tier 2 - Non-Preemptive Priority | Effective Priority: 3
+12,P2,[Empty],[Empty],Tier 2 - Non-Preemptive Priority | Effective Priority: 3

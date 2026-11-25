@@ -1,0 +1,21 @@
+Time,Running,Tier1,Tier2,Notes
+0,P1,[Empty],[Empty],Tier 1 - Round Robin
+1,P1,"[P2 (remaining: 6, Priority: 2)]",[Empty],Tier 1 - Round Robin
+2,P1,"[P2 (remaining: 6, Priority: 2)]",[Empty],Tier 1 - Round Robin
+3,CS,"[P2 (remaining: 6, Priority: 2)]","[P1 (remaining: 2, Priority: 4)]",Context switch
+4,P2,"[P3 (remaining: 4, Priority: 3)]","[P1 (remaining: 2, Priority: 4)]",Tier 1 - Round Robin
+5,P2,"[P3 (remaining: 4, Priority: 3)]","[P1 (remaining: 2, Priority: 4)]",Tier 1 - Round Robin
+6,P2,"[P3 (remaining: 4, Priority: 3)]","[P1 (remaining: 2, Priority: 4)]",Tier 1 - Round Robin
+7,CS,"[P3 (remaining: 4, Priority: 3)]","[P1 (remaining: 2, Priority: 3), P2 (remaining: 3, Priority: 2)]",Context switch
+8,P3,[Empty],"[P1 (remaining: 2, Priority: 3), P2 (remaining: 3, Priority: 2)]",Tier 1 - Round Robin
+9,P3,[Empty],"[P1 (remaining: 2, Priority: 3), P2 (remaining: 3, Priority: 2)]",Tier 1 - Round Robin
+10,P3,[Empty],"[P1 (remaining: 2, Priority: 3), P2 (remaining: 3, Priority: 2)]",Tier 1 - Round Robin
+11,CS,[Empty],"[P1 (remaining: 2, Priority: 2), P2 (remaining: 3, Priority: 1), P3 (remaining: 1, Priority: 3)]",Context switch
+12,P2,[Empty],"[P1 (remaining: 2, Priority: 2), P3 (remaining: 1, Priority: 3)]",Tier 2 - Non-Preemptive Priority | Effective Priority: 1
+13,P2,[Empty],"[P1 (remaining: 2, Priority: 2), P3 (remaining: 1, Priority: 3)]",Tier 2 - Non-Preemptive Priority | Effective Priority: 1
+14,P2,[Empty],"[P1 (remaining: 2, Priority: 2), P3 (remaining: 1, Priority: 3)]",Tier 2 - Non-Preemptive Priority | Effective Priority: 1
+15,CS,[Empty],"[P1 (remaining: 2, Priority: 1), P3 (remaining: 1, Priority: 2)]",Context switch
+16,P1,[Empty],"[P3 (remaining: 1, Priority: 2)]",Tier 2 - Non-Preemptive Priority | Effective Priority: 1
+17,P1,[Empty],"[P3 (remaining: 1, Priority: 2)]",Tier 2 - Non-Preemptive Priority | Effective Priority: 1
+18,CS,[Empty],"[P3 (remaining: 1, Priority: 2)]",Context switch
+19,P3,[Empty],[Empty],Tier 2 - Non-Preemptive Priority | Effective Priority: 1

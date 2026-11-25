@@ -2,15 +2,6 @@ import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
-
-/**
- * ACS implementation for Student 3.
- * Tier 1 uses Round Robin. A process that consumes its full quantum and still
- * has work remaining is demoted to Tier 2.
- *
- * IMPORTANT: Tier 2 is intentionally a temporary FIFO placeholder. Student 4
- * is expected to replace this policy with the Priority Queue + Aging policy.
- */
 public class ACSScheduler implements Scheduler {
 
     @Override
@@ -107,8 +98,6 @@ public class ACSScheduler implements Scheduler {
                     tier2.addLast(current);
                 }
             } else {
-                // Temporary Tier 2 placeholder: FIFO, non-preemptive execution.
-                // Student 4 will replace this with Priority Queue + Aging.
                 while (current.remaining > 0) {
                     nextArrival = admitArrivals(arrivals, nextArrival, time, tier1);
                     String note = "Tier 2 / temporary FIFO placeholder (non-preemptive)";
